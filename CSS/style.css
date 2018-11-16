@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Prompt:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
 
 html{
     font-family: 'Prompt', sans-serif;
@@ -11,7 +12,13 @@ h1{
 h2{
     font-family: 'Prompt', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
+    color: white;
+}
+h3{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
     color: white;
 }
 /* .container{
@@ -50,11 +57,11 @@ h2{
     color: black;
 }
 .topmenu{
-    height: 60px;
+    height: 75px;
     background-color: #000;
 }
 .topmenu button{
-    height: 60px;
+    height: 75px;
     color: white;
     border: none;
     background: none;
@@ -76,11 +83,11 @@ h2{
 
 .banner{
     font-family: 'Prompt', sans-serif;
-    height: 350px;
+    height: 290px;
     background-color: darkgray;
 }
 .banner h1{
-    font-weight: 700;
+    font-family: 'Paytone One', sans-serif;
     font-size: 40px;
     color: #eb8d00;
 }
@@ -90,8 +97,8 @@ h2{
     color: white;
 }
 .search{
-    height: 306px;
-    margin-top: 32px;
+    height: 375px;
+    margin-top: 40px;
 }
 .search .row{
     height: inherit;
@@ -99,30 +106,67 @@ h2{
 .filter{
     background-color: #363636;
     height: inherit;
-    width: 337px;
     padding: 32px;
 }
 .filteroption{
     height: 63px;
-    width: 80%;
+    width: 100%;
 }
 .filteroption p{
     color: white;
     font-family: 'Prompt', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.filteroption select{
+    font-family: 'Prompt', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.filter button{
+    font-family: 'Prompt', sans-serif;
+    font-size: 13px;
     font-weight: 400;
 }
 
+
+
+
 .sponsor{
     height: inherit;
-    width: 475px;
-    padding: 40px;
+    padding: 15px;
     border-top: 2px solid #ffb13b;
     border-bottom: 2px solid #ffb13b;
 }
-.sponsor h2{
+.sponsor h3{
     color: #eb8d00;
+    margin-bottom: 34px;
 }
+.sponsorbox{
+    width: 100%;
+    height: 70px;
+
+}
+.sponsorbox img{
+    width: 100%;
+}
+.sponsor h4{
+    font-family: 'Prompt', sans-serif;
+    color: #eb8d00;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.sponsor p{
+    font-family: 'Prompt', sans-serif;
+    color: black;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.sponsor a{
+    text-decoration: none;
+}
+
 .skill{
     height: 175px;
     background-color: springgreen;
