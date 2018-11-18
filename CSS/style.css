@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Prompt:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Paytone+One');
-@import url('https://fonts.googleapis.com/css?family=Trirong:400,500');
+@import url('https://fonts.googleapis.com/css?family=Taviraj:400,500');
 
 html{
     font-family: 'Prompt', sans-serif;
@@ -242,7 +242,7 @@ h3{
     color: #eb8d00;
 }
 .postbox p{
-    font-family: 'Trirong', serif;
+    font-family: 'Taviraj', serif;
     color: #5a5a5a;
 }
 .postbox button{
