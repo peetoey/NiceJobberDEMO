@@ -77,6 +77,12 @@ h3{
     background-color: #eb8d00;
 }
 
+
+
+
+
+
+
 .banner{
     font-family: 'Prompt', sans-serif;
     height: 290px;
@@ -198,7 +204,7 @@ h3{
     font-size: 14px;
     text-align: center;
     line-height: 30px;
-
+    
     background-color: #eb8d00;
     color: white;
     border-radius: 5px;
@@ -309,8 +315,8 @@ h3{
     height: 65px;
 }
 .reference h2{
-
-
+    
+    
 }
 .referencebox{
     height: 275px;
@@ -348,145 +354,38 @@ footer{
     height: 315px;
     margin-top: 40px;
 }
-footer .box{
-    height: 260px;
-    padding: 50px;
+.footerbox{
+    height: 255px;
+    margin-top: 60px;
+    background-color: white;
 }
+footer h2{
+    color: #eb8d00;
+    font-size: 28px;
+    font-weight: 700;
+}
+footer p{
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    color: #5a5a5a;
 
-.Orange_Line {
-  width: 100%;
-  height: 3px;
-  border: solid 5px #eb8d00;
 }
-
-.loginbox{
-  font-family: 'Prompt', sans-serif;
-  padding: 40px 80px;
-  margin: 135px;
-  width: 830px;
- height: 485px;
- border-radius: 5px;
- border: solid 1px #eb8d00;
- background-color: #ffffff;
+footer i{
+    margin-right: 20px;
 }
-
-.inputlogin{
-  padding: 5 30;
-  width: 660px;
- height: 45px;
- border-radius: 10px;
- border: solid 1px #707070;
- background-color: #ffffff;
+footer h3{
+    color: #5a5a5a;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
-
-.primary_button{
-  margin-top: 35px;
-  color:white;
-  width: 325px;
- height: 50px;
- border-radius: 5px;
- background-color: #eb8d00;
+footer li{
+    font-family: 'Prompt', sans-serif;
+    color: #5a5a5a;
+    font-size: 14px;
+    margin-top: 5px;
 }
-.primary_button : hover{
-  cursor: pointer;
-}
-.loginbox a{
-  color: #eb8d00;
-}
-.loginbox a:hover{
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.loginbox a{
-  color: #eb8d00;
-}
-.black-footer{
-  font-family: Prompt;
-  color: white;
-  font-size: 16px;
-}
-.footer-logo{
-  zoom:25%;
-}
-.black-footer a{
-  color: white;
-  font-size: 14px;
-}
-.black-footer a:hover{
-  color: #eb8d00;
-  text-decoration: none;
-}
-.black-footer .social-box{
-  margin-top: 8px;
-}
-
-.black-footer .social-box i{
-  margin-right: 10px;
-  font-size: 16px;
-}
-.black-footer .social-box i:hover{
-  color: #eb8d00;
-}
-
-.orange-circle{
-  color: white;
-  background-color: #eb8d00;
-  border-radius: 100px;
-  width: 32px;
-  height: 32px;
-  text-align: center;
-  float: left;
-}
-
-.register-box{
-  font-family: 'Prompt', sans-serif;
-  padding: 40px 80px;
-  margin: 135px;
-  margin-top: 100px;
-  width: 830px;
- height: 485px;
- background-color: #ffffff;
-}
-
-.otp-box{
-  font-family: 'Prompt', sans-serif;
-  margin-top: 0px;
-  margin-bottom: 160px;
-  padding: 40px 80px;
-  margin-left: 100px;
-  margin-right: 100px;
-  width: 830px;
- height: 485px;
- background-color: #ffffff;
-}
-
-.pre-page-button{
-  margin-top: 36px;
- font-family: Prompt;
- font-size: 24px;
- font-weight: bold;
- letter-spacing: normal;
- text-align: left;
- color: #eb8d00;
-}
-
-.pre-page-button:hover{
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.d-flex .flex-column .align-items-center a:hover{
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.profile-box{
-  margin-top: 0px;
-  padding: 40px 80px;
-  margin-left: 100px;
-  margin-right: 100px;
-  font-family: 'Prompt', sans-serif;
-  width: 830px;
-  height: 485px;
+.footerbox a{
+    color: #5a5a5a;
+    text-decoration: none;
 }
