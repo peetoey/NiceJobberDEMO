@@ -1,4 +1,5 @@
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,21 +25,153 @@
 <div class="container" style="font-family:prompt; color:#5a5a5a">
   <div class=pre-page-button>
     <a>
-      < ย้อนกลับ</a> </div> <div class="profile-box d-flex flex-column justify-content-center" style=" magin-top:10px;">
+      < ย้อนกลับ</a> </div> <div class="profile-box d-flex flex-column justify-content-center">
         <div style="text-align: left;font-size:24px; font-family:Prompt;">
           <div class="orange-circle">
-            1
+            3
           </div> &nbsp
           <div style="display:inline;">
-            การลงทะเบียน
+            สร้างโปรไฟล์ของคุณ
           </div>
         </div>
         <div style="color:#5a5a5a;font-size: 18px; ">
-          เพียงแค่ 4 ขั้นตอน กรอกข้อมูลขั้นต้น ยืนยันเบอร์โทรศัพท์ สร้างโปรไฟล์ของตัวเอง และทำแบบประเมิน
-          ก็สามารถหา และรับงานแนะนำสำหรับคุณ จาก Nice Jobber
+          ข้อมูลเหล่านี้จะช่วยเพิ่มความน่าเชื่อถือให้กับผู้จ้างงาน เมื่อคุณยื่นใบสมัครงานไปยังบริษัท หรือมีผู้อื่นต้องการที่จะจ้างงานคุณ
         </div>
+        <h1>ข้อมูลทั่วไป</h1>
+        <div class="Profile-circle mx-auto"></div>
+        <form>
+        <!-- เริ่มต้น 1 section -->
+          <div class="d-flex flex-row col-lg-12" style="margin-bottom:40px;">
+            <div class="d-flex flex-column col-lg-6 ">
+              ชื่อ
+              <input class="input-profile" class="input-profile" type="text" placeholder="">
+              เกิดวันที่
+              <input class="input-profile" class="inputlogin" type="password" placeholder="">
+              สัญชาติ
+              <input class="input-profile" class="inputlogin" type="password" placeholder="">
+              ระดับการศึกษาสูงสุด
+              <select class="input-profile">
+                <option value="">มัธยมต้น</option>
+                <option value="">มัธยมปลาย</option>
+                <option value="">ปสช.</option>
+                <option value="">ปวส.</option>
+                <option value="">ปริญญาตรี</option>
+                <option value="">สูงกว่าปริญญาตรี</option>
+              </select>
+
+              <div class="d-flex flex-row" style="display:inline; margin-top:10px;">
+                <input type="checkbox" name="" value=""> part-time<br>
+                <input type="checkbox" name="" value=""> full-time<br>
+              </div>
+            </div>
+            <div class="d-flex flex-column col-lg-6 ">
+              นามสกุล
+              <input class="input-profile" class="input-profile" type="text" placeholder="">
+              อายุ
+              <input class="input-profile" class="inputlogin" type="password" placeholder="">
+              ศาสนา
+              <input class="input-profile" class="inputlogin" type="password" placeholder="">
+              เงือนเดือนล่าสุด(หากไม่ทราบ ให้ประมาณ)
+                <input class="input-profile" class="inputlogin" type="password" placeholder="">
+            </div>
+          </div>
+
+          <h1>ข้อมูลการติดต่อ</h1>
+          <div class="d-flex flex-row col-lg-12">
+            <div class="d-flex flex-column col-lg-6 ">
+               จังหวัด
+              <select class="input-profile">
+                <option value="">กรุงเทพมหานคร</option>
+                <option value="">นครปฐม</option>
+                <option value="">นนทบุรี</option>
+                <option value="">สมุสมุทรสาคร</option>
+                <option value="">สมุทรปราการ</option>
+                <option value="">เพชรบุรี</option>
+              </select>
+              แขวง/ตำบล
+              <select class="input-profile">
+                <option value="">บางปะแก้ว</option>
+                <option value="">นครปฐม</option>
+                <option value="">นนทบุรี</option>
+                <option value="">สมุสมุทรสาคร</option>
+                <option value="">สมุทรปราการ</option>
+                <option value="">เพชรบุรี</option>
+              </select>
+
+            </div>
+            <div class="d-flex flex-column col-lg-6 ">
+              เขต/อำเภอ
+              <select class="input-profile">
+                <option value="">ราษฎร์บูรณะ</option>
+                <option value="">นครปฐม</option>
+                <option value="">นนทบุรี</option>
+                <option value="">สมุสมุทรสาคร</option>
+                <option value="">สมุทรปราการ</option>
+                <option value="">เพชรบุรี</option>
+              </select>
+              รหัสไปรษณีย์
+              <input class="input-profile" class="inputlogin" type="text" placeholder="" maxlength="5">
+            </div>
+          </div>
+          <div class="d-flex flex-column col-lg-12" style="padding:0 30;">
+            ข้อมูลเพิ่มเติม
+            <input class="input-profile" class="inputlogin" type="text" placeholder="เช่น บ้านเลขที่, เลขห้องพัก, ชื่ออาคาร, หมูบ้าน">
+          </div>
+          <div class="d-flex flex-row col-lg-12">
+            <div class="d-flex flex-column col-lg-6 ">
+               เบอร์โทรที่ติดต่อได้
+               <input class="input-profile" class="inputlogin" type="text" placeholder="" maxlength="10">
+            </div>
+
+          </div>
+
+
+<!-- ปุ่มคอนเฟิร์ม -->
+          <div class="d-flex flex-column align-items-center">
+            <input class="primary_button" style="margin-bottom:18px;" type="submit" value="ต่อไป" href="/register-02.html">
+          </div>
+        </form>
+<!-- จบ Form -->
 
   </div>
 </div>
+
+
+<footer style="background-color:#5a5a5a;">
+  <div class="container d-flex">
+    <div class="footerbox col-md-4 d-flex flex-column" style="background-color:#5a5a5a;">
+      <img src="img/logo.png" alt="" class="w-75 mb-3">
+      <p style="color:white;">สังโฆมาร์เก็ตติ้งทรูกิมจิ แคมปัสงี้ซูเอี๋ย โบรชัวร์พิซซ่าเซ็นเตอร์ทอร์นาโด
+        ฮิปโปเจ๊าะแจ๊ะจ๊อกกี้ </p>
+      <div class="d-flex">
+        <a href="#"><i class="fab fa-facebook-square fa-lg" style="color:white;"></i></a>
+        <a href="#"><i class="fab fa-line fa-lg" style="color:white;"></i></a>
+        <a href="#"><i class="fab fa-twitter-square fa-lg" style="color:white;"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-lg" style="color:white;"></i></a>
+
+      </div>
+    </div>
+    <div class="footerbox col-md-4" style="background-color:#5a5a5a;">
+      <h3 style="color:white;">USEFUL INFORMATION</h3>
+      <ul>
+        <li><a href="#" style="color:white;">เกี่ยวกับเรา</a></li>
+        <li><a href="#" style="color:white;">ลงประกาศสมัครงาน</a></li>
+        <li><a href="#" style="color:white;">คำถามที่พบบ่อย</a></li>
+        <li><a href="#" style="color:white;">สมัครงาน</a></li>
+        <li><a href="#" style="color:white;">ติดต่อเรา</a></li>
+      </ul>
+    </div>
+    <div class="footerbox col-md-4" style="background-color:#5a5a5a;">
+      <h3 style="color:white;">USEFUL INFORMATION</h3>
+      <ul>
+        <li style="color:white;"><i class="fas fa-phone fa-flip-horizontal"></i>093-651-xxxx</li>
+        <li style="color:white;"><i class="fas fa-envelope"></i>nicejobber@gmail.com</li>
+        <li style="color:white;"><i class="fas fa-map-marker-alt"></i>69 ตึกตึกโป๊ะตึกตึก แขวงเสื้อผ้า เขตฐานทัพ 10621</li>
+      </ul>
+    </div>
+  </div>
+  </div>
+
+</footer>
 
 </html>
