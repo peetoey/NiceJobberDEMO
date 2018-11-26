@@ -308,10 +308,10 @@ h3{
 .referenceboxtitle{
     height: 65px;
 }
-.reference h2{
+/* .reference h2{
 
 
-}
+} */
 .referencebox{
     height: 275px;
 }
@@ -387,7 +387,7 @@ footer .box{
  border-radius: 5px;
  background-color: #eb8d00;
 }
-.primary_button : hover{
+.primary_button :hover{
   cursor: pointer;
 }
 .loginbox a{
