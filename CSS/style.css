@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Prompt:400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Paytone+One');
-@import url('https://fonts.googleapis.com/css?family=Taviraj:400,500');
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,500,700');
 
 html {
   font-family: 'Prompt', sans-serif;
@@ -271,7 +271,7 @@ h3 {
 }
 
 .postbox p {
-  font-family: 'Taviraj', serif;
+  font-family: 'kodchasan', serif;
   color: #5a5a5a;
 }
 
@@ -584,18 +584,18 @@ footer li {
 
 .paragraph-box {
   color: #5a5a5a;
-  font-family: Taviraj;
+  font-family: Bai jamjuree;
   margin-top: 40px;
   margin-bottom: 24px;
 }
 
 .detail-box {
-  font-family: taviraj;
+  font-family: Bai jamjuree;
   color: #5a5a5a;
 }
 
 .detail-box p {
-  font-family: taviraj;
+  font-family: Bai jamjuree;
   color: #5a5a5a;
 }
 
@@ -619,7 +619,7 @@ footer li {
 }
 
 .contact-box p {
-  font-family: taviraj;
+  font-family: Bai jamjuree;
   color: #5a5a5a;
 }
 
@@ -684,7 +684,7 @@ footer li {
 }
 
 .company-detail p {
-  font-family: prompt;
+  font-family: bai jamjuree;
   font-size: 16px;
   color: white;
 }
